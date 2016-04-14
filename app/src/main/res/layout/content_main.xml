@@ -17,7 +17,8 @@
         android:layout_height="300dp"
         android:src="@drawable/kolo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="30dp"
+        android:id="@+id/imageView" />
 
     <ImageView
         android:layout_width="120dp"
@@ -26,7 +27,68 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="51dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="clickStart"
+        android:id="@+id/imageView2" />
 
+    <ViewFlipper
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:id="@+id/viewflipper">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kroki"
+                android:textSize="25sp"
+                android:id="@+id/kroki"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JEDEN"
+                android:textSize="50sp"
+                android:id="@+id/jeden"
+                android:layout_below="@+id/kroki"
+                android:layout_marginTop="70dp"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kalorie"
+                android:textSize="25sp"
+                android:id="@+id/kalorie"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DWA"
+                android:textSize="50sp"
+                android:id="@+id/dwa"
+                android:layout_below="@+id/kalorie"
+                android:layout_marginTop="70dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+
+    </ViewFlipper>
 
 </RelativeLayout>

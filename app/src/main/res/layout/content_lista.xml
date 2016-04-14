@@ -12,21 +12,20 @@
     tools:context="pl.edu.wat.wel.krokomierz.ListaActivity"
     tools:showIn="@layout/app_bar_lista">
 
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <ImageView
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:src="@drawable/ico"
+        android:src="@drawable/add_ico"
         android:layout_marginBottom="5dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:clickable="true"
-        android:onClick="onclickadd"/>
-
-    <android.support.v7.widget.RecyclerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/recycleViev">
-    </android.support.v7.widget.RecyclerView>
+        android:onClick="onclickadd" />
 
 </RelativeLayout>
