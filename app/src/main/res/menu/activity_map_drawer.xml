@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/krok"
+            android:icon="@drawable/run"
+            android:title="Krokomierz" />
+        <item
+            android:id="@+id/mapa"
+            android:icon="@drawable/map"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/lista"
+            android:icon="@drawable/lista_ico"
+            android:title="Lista Aktywności" />
+        <item
+            android:id="@+id/wykres"
+            android:icon="@drawable/wykres_ico"
+            android:title="Wykres aktywności" />
+    </group>
+
+
+</menu>

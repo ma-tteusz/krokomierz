@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/normal"
+        android:orderInCategory="100"
+        android:title="NORMAL"
+        app:showAsAction="never"
+        android:onClick="normal" />
+    <item
+        android:id="@+id/satelita"
+        android:orderInCategory="100"
+        android:title="SATELLITE"
+        app:showAsAction="never"
+        android:onClick="satelita" />
+    <item
+        android:id="@+id/hybryda"
+        android:orderInCategory="100"
+        android:title="HYBRID"
+        app:showAsAction="never"
+        android:onClick="hybryda" />
+    <item
+        android:id="@+id/teren"
+        android:orderInCategory="100"
+        android:title="TERRAIN"
+        app:showAsAction="never"
+        android:onClick="teren" />
+</menu>

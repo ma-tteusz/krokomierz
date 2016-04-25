@@ -8,7 +8,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#4ea147">
+        android:background="#6db654">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -23,6 +23,7 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:text="Map Type"
+            android:textSize="16sp"
             android:id="@+id/Btype"
             android:layout_gravity="right"
             android:nestedScrollingEnabled="false"
@@ -36,22 +37,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="+"
+            android:textSize="20sp"
             android:id="@+id/Bzoomin"
             android:onClick="onZoom"
             android:background="#6db654"
             android:textColor="#ffffff"
-            android:layout_marginLeft="40dp"/>
+            android:layout_marginLeft="30dp" />
 
         <Button
             style="?android:attr/buttonStyleSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-"
+            android:textSize="22sp"
             android:id="@+id/Bzoomout"
             android:onClick="onZoom"
             android:background="#6db654"
             android:textColor="#ffffff"
-            android:layout_marginLeft="10dp"/>
+            android:layout_marginLeft="20dp" />
 
     </LinearLayout>
 
