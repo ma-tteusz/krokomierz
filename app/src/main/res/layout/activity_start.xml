@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ekran startowy"
+        android:src="@drawable/start03"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:textSize="50sp" />
+        android:layout_centerVertical="true" />
+
 
 </RelativeLayout>

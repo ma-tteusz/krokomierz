@@ -4,22 +4,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50dp"
+        android:id="@+id/numberofsteps"
+        android:layout_marginBottom="45dp"
+        android:layout_above="@+id/entertext"
+        android:layout_centerHorizontal="true" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:id="@+id/tekst" />
+        android:id="@+id/entertext"
+        android:inputType="number" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:layout_below="@+id/tekst"
+        android:layout_below="@+id/entertext"
         android:layout_marginTop="30dp"
         android:text="Dodaj"
         android:textSize="20sp" />
-
 
 </RelativeLayout>
