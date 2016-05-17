@@ -10,7 +10,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="pl.edu.wat.wel.krokomierz.MainActivity"
-    tools:showIn="@layout/app_bar_main">
+    tools:showIn="@layout/app_bar_main"
+    android:background="@drawable/gradient">
 
     <ImageView
         android:layout_width="300dp"
@@ -32,40 +33,6 @@
         android:onClick="clickStart"
         android:id="@+id/imageView2" />
 
-    <Button
-        android:id="@+id/buttonReset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_span="4"
-        android:onClick="resetSteps"
-        android:text="reset Steps"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_toLeftOf="@+id/imageView2"
-        android:layout_toStartOf="@+id/imageView2" />
-
-    <SeekBar
-        android:id="@+id/seekBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_span="4"
-        android:max="20"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:indeterminate="false" />
-
-    <TextView
-        android:id="@+id/textSensitive"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_span="4"
-        android:gravity="center_vertical|center_horizontal"
-        android:text="---"
-        android:textSize="20sp"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_alignRight="@+id/imageView"
-        android:layout_alignEnd="@+id/imageView" />
 
     <ViewFlipper
         android:layout_width="300dp"
@@ -123,7 +90,16 @@
                 android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
-
     </ViewFlipper>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*dotknij ikony aby zapisać"
+        android:id="@+id/info"
+        android:textSize="14sp"
+        android:textColor="#585757"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

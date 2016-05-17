@@ -4,25 +4,25 @@
     <item
         android:id="@+id/normal"
         android:orderInCategory="100"
-        android:title="NORMAL"
+        android:title="Standartowa"
         app:showAsAction="never"
         android:onClick="normal" />
     <item
         android:id="@+id/satelita"
         android:orderInCategory="100"
-        android:title="SATELLITE"
+        android:title="Satelita"
         app:showAsAction="never"
         android:onClick="satelita" />
     <item
         android:id="@+id/hybryda"
         android:orderInCategory="100"
-        android:title="HYBRID"
+        android:title="Hybrydowa"
         app:showAsAction="never"
         android:onClick="hybryda" />
     <item
         android:id="@+id/teren"
         android:orderInCategory="100"
-        android:title="TERRAIN"
+        android:title="Teren"
         app:showAsAction="never"
         android:onClick="teren" />
 </menu>
